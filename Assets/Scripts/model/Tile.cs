@@ -1,16 +1,17 @@
 using UnityEngine;
 using view;
+using TerrainData = view.TerrainData;
 
 namespace model
 {
     public class Tile
     {
         public Vector2Int Position { get; }
-        public TerrainTile Terrain { get; }
+        public TerrainData Terrain { get; }
 
         public TileView View { get; set; }
 
-        public Tile(TerrainTile terrain, Vector2Int position)
+        public Tile(TerrainData terrain, Vector2Int position)
         {
             Position = position;
             Terrain = terrain;
