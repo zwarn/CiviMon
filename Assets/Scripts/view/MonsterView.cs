@@ -12,6 +12,7 @@ namespace view
 
         public void Redraw()
         {
+            gameObject.transform.position = Helper.gameCoordsToWorld(Monster.Position);
             GetComponent<SpriteRenderer>().sprite = Monster.Data.sprite;
         }
 
@@ -19,7 +20,6 @@ namespace view
         {
             var position = monster.Position;
             var monsterObject = new GameObject(monster.Data.name);
-            monsterObject.transform.Translate(Helper.gameCoordsToWorld(position));
             monsterObject.AddComponent<SpriteRenderer>();
             monsterObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
             monsterObject.AddComponent<MonsterView>();

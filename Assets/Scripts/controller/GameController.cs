@@ -11,6 +11,7 @@ namespace controller
         public List<TerrainData> terrainList;
         public MonsterData MonsterData;
         public Dictionary<Vector2Int, Tile> tiles = new Dictionary<Vector2Int, Tile>();
+        public Monster monster;
 
         private void Start()
         {
@@ -21,8 +22,9 @@ namespace controller
         private void SetupMonster()
         {
             var position = new Vector2Int(0,0);
-            var monster = new Monster(MonsterData, position);
+            monster = new Monster(MonsterData, position);
             var monsterView = MonsterView.createGameObject(monster);
+            monster.MonsterView = monsterView;
         }
         
         private void SetupMap()
@@ -40,6 +42,11 @@ namespace controller
                     tile.View = tileView;
                 }
             }
+        }
+
+        public void Move(Vector2Int moveDirection)
+        {
+            monster.Move(moveDirection);
         }
     }
 }
