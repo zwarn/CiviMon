@@ -19,6 +19,7 @@ namespace model
             Sprite = data.sprite;
             Name = data.name;
             MaxActions = 2;
+            Actions = MaxActions;
             Position = position;
         }
 

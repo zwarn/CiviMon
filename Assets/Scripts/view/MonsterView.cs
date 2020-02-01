@@ -21,7 +21,7 @@ namespace view
             var position = monster.Position;
             var monsterObject = new GameObject(monster.Name);
             monsterObject.AddComponent<SpriteRenderer>();
-            monsterObject.GetComponent<SpriteRenderer>().sortingOrder = 1;
+            monsterObject.GetComponent<SpriteRenderer>().sortingOrder = 10;
             monsterObject.AddComponent<MonsterView>();
             var monsterView = monsterObject.GetComponent<MonsterView>();
             monsterView.Monster = monster;

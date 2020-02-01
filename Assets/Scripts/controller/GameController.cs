@@ -11,6 +11,7 @@ namespace controller
         public List<TerrainData> terrainList;
         public MonsterData MonsterData;
         public Dictionary<Vector2Int, Tile> tiles = new Dictionary<Vector2Int, Tile>();
+        public GameObject selectionCircle;
         private List<Monster> _monsters = new List<Monster>();
         private Monster _activeMonster;
 
@@ -65,6 +66,7 @@ namespace controller
         public void ChangeActiveMonster()
         {
             _activeMonster = _monsters[(_monsters.IndexOf(_activeMonster) + 1) % _monsters.Count];
+            selectionCircle.transform.position = _activeMonster.MonsterView.gameObject.transform.position;
         }
     }
 }
