@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8fc5da-20ba-4336-a384-c8b417a31ae6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Images/SelectionCirclepng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/SelectionCirclepng.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Dummymon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Dummymon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/model/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/model/Monster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/view/MonsterView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/view/MonsterView.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +51,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/view/MonsterData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/controller/InputController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/view/MonsterView.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/model/Monster.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" />
       </list>
     </option>
   </component>

@@ -23,9 +23,9 @@ namespace controller
 
         private void SetupMonsters()
         {
-            _monsters.Add(SetupMonster(new Vector2Int(0,0)));
-            _monsters.Add(SetupMonster(new Vector2Int(1,1)));
-            _activeMonster = _monsters[0];
+            _monsters.Add(SetupMonster(new Vector2Int(0, 0)));
+            _monsters.Add(SetupMonster(new Vector2Int(1, 1)));
+            ActivateFirstMonster();
         }
 
         private Monster SetupMonster(Vector2Int position)
@@ -35,7 +35,7 @@ namespace controller
             monster.MonsterView = monsterView;
             return monster;
         }
-        
+
         private void SetupMap()
         {
             var map = new GameObject("Map");
@@ -55,7 +55,11 @@ namespace controller
 
         public void Move(Vector2Int moveDirection)
         {
-            _activeMonster.Move(moveDirection);
+            var target = _activeMonster.Position + moveDirection;
+            if (tiles.ContainsKey(target))
+            {
+                _activeMonster.Move(moveDirection);
+            }
         }
 
         public void EndTurn()
@@ -63,10 +67,22 @@ namespace controller
             _monsters.ForEach(monster => monster.endTurn());
         }
 
+        private void ActivateFirstMonster()
+        {
+            _activeMonster = _monsters[0];
+            MarkActiveMonsterWithCircle();
+        }
+        
         public void ChangeActiveMonster()
         {
             _activeMonster = _monsters[(_monsters.IndexOf(_activeMonster) + 1) % _monsters.Count];
-            selectionCircle.transform.position = _activeMonster.MonsterView.gameObject.transform.position;
+            MarkActiveMonsterWithCircle();
+        }
+
+        private void MarkActiveMonsterWithCircle()
+        {
+            selectionCircle.transform.parent = _activeMonster.MonsterView.transform;
+            selectionCircle.transform.localPosition = Vector3.zero;
         }
     }
 }
