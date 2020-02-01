@@ -48,5 +48,10 @@ namespace controller
         {
             monster.Move(moveDirection);
         }
+
+        public void EndTurn()
+        {
+            monster.endTurn();
+        }
     }
 }

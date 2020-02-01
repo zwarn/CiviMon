@@ -6,7 +6,29 @@ namespace controller
 {
     public class InputController : MonoBehaviour
     {
+        private GameController _gameController;
+
+        private void Start()
+        {
+            _gameController = GetComponent<GameController>();
+        }
+
         public void Update()
+        {
+            var moveDirection = MoveButtons();
+
+            if (moveDirection.HasValue)
+            {
+                _gameController.Move(moveDirection.Value);
+            }
+
+            if (Input.GetKeyUp(KeyCode.Return))
+            {
+                _gameController.EndTurn();
+            }
+        }
+
+        private static Vector2Int? MoveButtons()
         {
             Vector2Int? moveDirection = null;
             if (Input.GetKeyUp(KeyCode.Keypad8))
@@ -39,10 +61,7 @@ namespace controller
                 moveDirection = Direction.LowerRight;
             }
 
-            if (moveDirection.HasValue)
-            {
-                FindObjectOfType<GameController>().Move(moveDirection.Value);
-            }
+            return moveDirection;
         }
     }
 }
