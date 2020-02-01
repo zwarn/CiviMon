@@ -11,20 +11,28 @@ namespace controller
         public List<TerrainData> terrainList;
         public MonsterData MonsterData;
         public Dictionary<Vector2Int, Tile> tiles = new Dictionary<Vector2Int, Tile>();
-        public Monster monster;
+        private List<Monster> _monsters = new List<Monster>();
+        private Monster _activeMonster;
 
         private void Start()
         {
             SetupMap();
-            SetupMonster();
+            SetupMonsters();
         }
 
-        private void SetupMonster()
+        private void SetupMonsters()
         {
-            var position = new Vector2Int(0,0);
-            monster = new Monster(MonsterData, position);
+            _monsters.Add(SetupMonster(new Vector2Int(0,0)));
+            _monsters.Add(SetupMonster(new Vector2Int(1,1)));
+            _activeMonster = _monsters[0];
+        }
+
+        private Monster SetupMonster(Vector2Int position)
+        {
+            var monster = new Monster(MonsterData, position);
             var monsterView = MonsterView.createGameObject(monster);
             monster.MonsterView = monsterView;
+            return monster;
         }
         
         private void SetupMap()
@@ -46,12 +54,17 @@ namespace controller
 
         public void Move(Vector2Int moveDirection)
         {
-            monster.Move(moveDirection);
+            _activeMonster.Move(moveDirection);
         }
 
         public void EndTurn()
         {
-            monster.endTurn();
+            _monsters.ForEach(monster => monster.endTurn());
+        }
+
+        public void ChangeActiveMonster()
+        {
+            _activeMonster = _monsters[(_monsters.IndexOf(_activeMonster) + 1) % _monsters.Count];
         }
     }
 }

@@ -26,6 +26,11 @@ namespace controller
             {
                 _gameController.EndTurn();
             }
+
+            if (Input.GetKeyUp(KeyCode.Tab))
+            {
+                _gameController.ChangeActiveMonster();
+            }
         }
 
         private static Vector2Int? MoveButtons()
