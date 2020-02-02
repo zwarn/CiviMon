@@ -71,18 +71,26 @@ namespace controller
         {
             _activeMonster = _monsters[0];
             MarkActiveMonsterWithCircle();
+            centerCamera(_monsters[0].MonsterView.gameObject);
         }
         
         public void ChangeActiveMonster()
         {
             _activeMonster = _monsters[(_monsters.IndexOf(_activeMonster) + 1) % _monsters.Count];
             MarkActiveMonsterWithCircle();
+            centerCamera(_activeMonster.MonsterView.gameObject);
         }
 
         private void MarkActiveMonsterWithCircle()
         {
             selectionCircle.transform.parent = _activeMonster.MonsterView.transform;
             selectionCircle.transform.localPosition = Vector3.zero;
+        }
+
+        private void centerCamera(GameObject center)
+        {
+            var position = center.transform.position;
+            Camera.main.transform.position = new Vector3(position.x, position.y, -10);
         }
     }
 }
