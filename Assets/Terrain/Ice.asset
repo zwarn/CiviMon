@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4901a4eae74c43a65a17a8069469b3, type: 3}
   m_Name: Ice
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 4c6ef0033fdc53e428a0a20b53e9d30d, type: 3}
+  sprite: {fileID: 21300000, guid: 9cd18a0f675dd3f49ad66e59d9f42360, type: 3}
