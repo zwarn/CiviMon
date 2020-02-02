@@ -155,7 +155,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ee7b9e92f3207c145a6eb1922d00831f, type: 2}
   - {fileID: 11400000, guid: 19f2977453cb08c4bb67787c454d704a, type: 2}
   - {fileID: 11400000, guid: 58e641908e99f2f4599d64530eb3dbc7, type: 2}
-  MonsterData: {fileID: 11400000, guid: 18b42bab220c4df4ba52f2321495cb62, type: 2}
+  MonsterDatas:
+  - {fileID: 11400000, guid: 9dd2c7e2d41f13c428db5df269cfe1df, type: 2}
+  - {fileID: 11400000, guid: 385da00eee11bd546877076b3830ccca, type: 2}
   selectionCircle: {fileID: 1532660398}
 --- !u!4 &479248845
 Transform:

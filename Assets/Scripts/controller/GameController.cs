@@ -9,7 +9,7 @@ namespace controller
     public class GameController : MonoBehaviour
     {
         public List<TerrainData> terrainList;
-        public MonsterData MonsterData;
+        public List<MonsterData> MonsterDatas;
         public Dictionary<Vector2Int, Tile> tiles = new Dictionary<Vector2Int, Tile>();
         public GameObject selectionCircle;
         private List<Monster> _monsters = new List<Monster>();
@@ -23,14 +23,14 @@ namespace controller
 
         private void SetupMonsters()
         {
-            _monsters.Add(SetupMonster(new Vector2Int(0, 0)));
-            _monsters.Add(SetupMonster(new Vector2Int(1, 1)));
+            _monsters.Add(SetupMonster(new Vector2Int(0, 0), 0));
+            _monsters.Add(SetupMonster(new Vector2Int(1, 1), 1));
             ActivateFirstMonster();
         }
 
-        private Monster SetupMonster(Vector2Int position)
+        private Monster SetupMonster(Vector2Int position, int index)
         {
-            var monster = new Monster(MonsterData, position);
+            var monster = new Monster(MonsterDatas[index], position);
             var monsterView = MonsterView.createGameObject(monster);
             monster.MonsterView = monsterView;
             return monster;
