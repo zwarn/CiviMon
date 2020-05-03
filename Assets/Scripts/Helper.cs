@@ -6,7 +6,7 @@ namespace DefaultNamespace
     {
         public static Vector3 gameCoordsToWorld(Vector2Int gameCoords)
         {
-            return new Vector3(gameCoords.x, gameCoords.y + gameCoords.x / 2.0f, 0);
+            return new Vector3(gameCoords.x + gameCoords.y / 2.0f, gameCoords.y * 0.75f, 0);
         }
     }
 }

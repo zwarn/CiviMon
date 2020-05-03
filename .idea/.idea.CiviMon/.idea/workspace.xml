@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c8fc5da-20ba-4336-a384-c8b417a31ae6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CiviMon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Monster/Pixeldeer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Monster/Pixeldeer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Monster/appleman.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Monster/appleman.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Earth.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Earth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Earth.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Earth.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Fire.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Fire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Fire.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Fire.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Ice.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Ice.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Ice.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Ice2.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Ice2.pdn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Nature.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Nature.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Terrain/Nature.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Terrain/Nature.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters/Deardear.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Monsters/Deardear.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Helper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Helper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Terrain/Ice.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Terrain/Ice.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,52 +32,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="92" column="82" selection-start-line="92" selection-start-column="82" selection-end-line="92" selection-end-column="82" />
-              <folding>
-                <marker date="1580666885271" expanded="false" signature="6:115" ph="..." />
-                <marker date="1580666885271" expanded="true" signature="137:3074" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="187:3072" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="550:623" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="661:849" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="919:1153" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="1186:1761" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="1281:1751" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="1339:1737" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="1813:2022" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="1932:2012" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="2053:2134" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="2179:2348" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="2399:2626" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="2678:2851" ph="{...}" />
-                <marker date="1580666885271" expanded="true" signature="2905:3066" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/TileView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/TerrainData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Images/Dummymon.png.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/MonsterView.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/controller/InputController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/model/Direction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/model/Tile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/TileView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/controller/InputController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/TerrainData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/MonsterView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/model/Monster.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/view/MonsterData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Images/Dummymon.png.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Helper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/model/Direction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,7 +65,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/view/Tile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/view/Terrain.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/view/TerrainTile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Helper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/view/TileView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/view/TerrainData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/model/Tile.cs" />
@@ -85,60 +75,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/model/Monster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/model/GameState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Helper.cs" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="74" />
-    <option name="y" value="60" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1XAgJeRQ4eIdshPDpHNan07YdhM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="controller" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="model" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -167,12 +110,14 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -195,47 +140,6 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="15283000" />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -247,12 +151,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -285,39 +184,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/model/GameState.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/controller/GameController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="92" column="82" selection-start-line="92" selection-start-column="82" selection-end-line="92" selection-end-column="82" />
-          <folding>
-            <marker date="1580666885271" expanded="false" signature="6:115" ph="..." />
-            <marker date="1580666885271" expanded="true" signature="137:3074" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="187:3072" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="550:623" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="661:849" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="919:1153" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="1186:1761" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="1281:1751" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="1339:1737" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="1813:2022" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="1932:2012" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="2053:2134" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="2179:2348" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="2399:2626" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="2678:2851" ph="{...}" />
-            <marker date="1580666885271" expanded="true" signature="2905:3066" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
